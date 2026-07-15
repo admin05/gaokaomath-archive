@@ -1,0 +1,71 @@
+name: Sync Gaokao Math Archive
+
+on:
+  workflow_dispatch:
+  schedule:
+    # Daily at 03:17 Asia/Shanghai (19:17 UTC).
+    - cron: "17 19 * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gaokaomath-archive-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+
+    steps:
+      - name: Check out archive repository
+        uses: actions/checkout@v4
+        with:
+          path: archive
+          fetch-depth: 1
+
+      - name: Check out source repository
+        run: |
+          set -euo pipefail
+          /usr/bin/git --version
+          /usr/bin/git clone \
+            --depth 1 \
+            --single-branch \
+            --branch main \
+            https://github.com/deekur/gaokaomath.git \
+            source
+
+      - name: Copy additions and updates without deletions
+        run: |
+          set -euo pipefail
+          rsync -a \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            source/ archive/
+
+      - name: Commit and push archive changes
+        working-directory: archive
+        run: |
+          set -euo pipefail
+
+          /usr/bin/git config user.name "github-actions[bot]"
+          /usr/bin/git config user.email \
+            "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # Stage new and modified files only. Source-side deletions stay archived.
+          /usr/bin/git add --ignore-removal -- .
+
+          if [ -n "$(/usr/bin/git diff --cached --name-only --diff-filter=D)" ]; then
+            echo "Refusing to commit deletions."
+            exit 1
+          fi
+
+          if /usr/bin/git diff --cached --quiet; then
+            echo "Archive is already up to date."
+            exit 0
+          fi
+
+          source_sha=$(/usr/bin/git -C ../source rev-parse --short=12 HEAD)
+          /usr/bin/git commit -m "chore: sync gaokaomath at ${source_sha}"
+          /usr/bin/git push origin HEAD:${GITHUB_REF_NAME}
