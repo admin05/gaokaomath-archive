@@ -235,4 +235,4 @@ This repository does not include preliminary examination papers, except those fr
 If you are interested in the policy evolution and historical background of the Gaokao, feel free to check out my other project:
 [**gaokao-system**](https://github.com/deekur/gaokao-system)
 
-**Last updated: July 28, 2026. The latest version prevails; historical versions are for reference only.**
+**Last updated: July 29, 2026. The latest version prevails; historical versions are for reference only.**
