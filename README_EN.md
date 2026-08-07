@@ -292,4 +292,4 @@
 
 </details>
 
-**Last updated: July 31, 2026. The latest version prevails; historical versions are for reference only.**
+**Last updated: August 3, 2026. The latest version prevails; historical versions are for reference only.**
