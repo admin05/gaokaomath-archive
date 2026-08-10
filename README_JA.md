@@ -287,9 +287,12 @@
 <details>
   <summary><b>8. 関連プロジェクト</b></summary>
 
-  中国の高考政策の変遷や歴史的背景に興味がある方は、こちらの関連プロジェクトもぜひご覧ください：
+  - 中国の高考政策の変遷や歴史的背景に興味がある方は、こちらの関連プロジェクトもぜひご覧ください：
   [**gaokao-system**](https://github.com/deekur/gaokao-system)
+  
+  - また、コミュニティには、このリポジトリのデータを基に LaTeX で組版・統合したプロジェクトがあり、生成された PDF とソースコードも提供されています：
+[**DxAThing/Gaokao-Math-Problems-Compilation**](https://github.com/DxAThing/Gaokao-Math-Problems-Compilation)
 
 </details>
 
-**最終更新：2026 年 8 月 6 日。最新バージョンを優先し、過去のバージョンは参考用です。**
+**最終更新：2026 年 8 月 10 日。最新バージョンを優先し、過去のバージョンは参考用です。**
