@@ -294,4 +294,4 @@
 [**DxAThing/Gaokao-Math-Problems-Compilation**](https://github.com/DxAThing/Gaokao-Math-Problems-Compilation)
 </details>
 
-**Last updated: August 10, 2026. The latest version prevails; historical versions are for reference only.**
+**Last updated: August 19, 2026. The latest version prevails; historical versions are for reference only.**
