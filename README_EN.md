@@ -67,8 +67,8 @@
   - 1978–1984: National paper
   - 1985–1990: Shanghai paper, Guangdong paper, and national paper
   - 1991–1992: Shanghai paper, national paper, and the Hunan-Hainan-Yunnan paper
-  - 1993: Shanghai paper and papers for the new and old subject groups
-  - 1994–1998: Shanghai paper and national paper
+  - 1993-1994: Shanghai paper and papers for the new and old subject groups
+  - 1995–1998: Shanghai paper and national paper
   - 1999: Guangdong paper, Shanghai paper, and national paper
   - 2000: Guangdong paper, Shanghai paper, and new/old curriculum papers
   - 2001: Guangdong-Henan paper, Shanghai paper, and national new/old curriculum papers
