@@ -241,7 +241,7 @@
 
   **3. Alternative Papers**
 
-  This repository does not include **alternative papers**, **whether or not they were ever used**. Note that the 2003 alternative paper was not used, and that the papers for the postponed-examination regions in 45 districts and cities of Sichuan and Gansu in 2008 were not alternative papers. Alternative papers are also called **backup papers** and **付题** (“付” is the Second Simplified Chinese form of “副”).
+  This repository does not include **alternative papers**, **whether or not they were ever used**. Note that the 2003 alternative paper was not used, and that the papers for the postponed-examination regions in 45 districts and cities of Sichuan in 2008 were not alternative papers. Alternative papers are also called **backup papers** and **付题** (“付” is the Second Simplified Chinese form of “副”).
 
   **4. Preliminary Examination Papers**
 
@@ -288,4 +288,4 @@
 [**DxAThing/Gaokao-Math-Problems-Compilation**](https://github.com/DxAThing/Gaokao-Math-Problems-Compilation)
 </details>
 
-**Last updated: August 26, 2026. The latest version prevails; historical versions are for reference only.**
+**Last updated: September 8, 2026. The latest version prevails; historical versions are for reference only.**
