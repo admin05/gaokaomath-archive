@@ -29,10 +29,9 @@
   - 1997: Tianjin, Shanxi, and Jiangxi launched the ***new curriculum*** reform
   - 1998: The new curriculum reform continued
   - 1999: Guangdong launched the 3+X reform
-  - 2000: Guangdong adjusted the 3+X model
-  - 2001: Henan joined the 3+X model
-  - 2002: Beijing began setting its own papers; Jiangsu and Guangxi joined 3+X; the 3+X reform was completed
-  - 2003: Liaoning joined the pilot
+  - 2000-2001: The 3+X reform was expanded
+  - 2002: Beijing began setting their own papers; the 3+X reform was completed
+  - 2003: New curriculum reform was expanded
   - 2004: Chongqing, Fujian, Guangdong, Hubei, Hunan, Jiangsu, Liaoning, Tianjin, and Zhejiang began setting their own papers; the ***new curriculum standards*** reform began
   - 2005: Shandong and Jiangxi began setting their own papers; the new curriculum reform was completed
   - 2006: Anhui, Sichuan, and Shaanxi began setting their own papers
@@ -288,4 +287,4 @@
 [**DxAThing/Gaokao-Math-Problems-Compilation**](https://github.com/DxAThing/Gaokao-Math-Problems-Compilation)
 </details>
 
-**Last updated: September 28, 2026. The latest version prevails; historical versions are for reference only.**
+**Last updated: October 12, 2026. The latest version prevails; historical versions are for reference only.**
