@@ -222,7 +222,7 @@
   **1. Inclusion Criteria for Papers**
 
   - General undergraduate institutions could participate in admissions, and admission was not conducted directly by individual institutions
-  - All **general senior high school** students could participate
+  - General senior high school students and previous graduates can participate.
   - One additional criterion for spring examinations: difficulty comparable to the **same year's** regular Gaokao
 
   Accordingly, the collection excludes papers used solely for junior-college admissions in some years or provinces, papers for independent or joint admissions by universities, and the so-called ~~Spring Gaokao~~ papers used in recent years by Shandong, Guangdong, Tianjin, Fujian, and other provinces.
@@ -287,4 +287,4 @@
 [**DxAThing/Gaokao-Math-Problems-Compilation**](https://github.com/DxAThing/Gaokao-Math-Problems-Compilation)
 </details>
 
-**Last updated: October 12, 2026. The latest version prevails; historical versions are for reference only.**
+**Last updated: October 31, 2026. The latest Chinese version prevails; other versions are for reference only.**
